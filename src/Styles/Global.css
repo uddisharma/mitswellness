@@ -1,0 +1,50 @@
+.banner{
+    /* padding-top: 100px; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.ContactBanner{
+
+    height: 300px;
+    width: 100%;
+    background: url('https://chicnutrix-images.s3.us-east-2.amazonaws.com/images/icons/subscribe-sec-bg-new.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Contactform{
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+@media screen and (max-width: 480px){
+    .banner{
+      
+        padding-top:150px
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 30px;
+    }
+    .statimg{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 780px){
+    .banner{
+  
+        padding-top: 140px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 30px;
+
+    }
+    .statimg{
+        margin-top: 20px;
+    }
+}
